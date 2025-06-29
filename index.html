@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Online Eye Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Online Eye Test</h1>
+    <p>Check your vision at home with this simple test.</p>
+  </header>
+
+  <section id="eye-test">
+  <h2>Snellen Chart</h2>
+
+  <div class="distance-guide">
+    <p>📏 Stand 3 meters (10 feet) from your screen for accurate results.</p>
+  </div>
+
+  <div class="chart">
+    <p class="line" data-answer="E">E</p>
+    <p class="line" data-answer="F P">F P</p>
+    <p class="line" data-answer="T O Z">T O Z</p>
+    <p class="line" data-answer="L P E D">L P E D</p>
+    <p class="line" data-answer="P E C F D">P E C F D</p>
+  </div>
+
+  <input type="text" id="userInput" placeholder="Type what you see..." />
+  <button onclick="checkAnswer()">Check</button>
+  <p id="result"></p>
+  <p id="score">Score: 0</p>
+</section>
+
+  <section id="about">
+    <h2>About This Test</h2>
+    <p>This online eye test is a simple visual aid. For accurate results, please consult a professional optometrist.</p>
+  </section>
+
+  
+
+  <footer>
+    <p>&copy; Aguirre, Chris Raizen C.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
